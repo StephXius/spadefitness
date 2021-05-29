@@ -1,0 +1,72 @@
+.Navbar {
+  background-color: #43c2fb;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  padding: 8px;
+  font-size: 30px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li:hover {
+  color: blue;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.Home_Page {
+  height: 900px;
+  background-image: url("Images/group-of-people-working-out-in-gym-royalty-free-image-961177712-1544132722.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+#Join {
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+  background-color: #43c2fb;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: inherit;
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 30%;
+}
+
+.button:hover {
+  background-color: blue;
+}
+
+#Intro_Text {
+  color: #43c2fb;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+}

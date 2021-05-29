@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href= "form.css" rel=stylesheet type="text/css">
+    <script type="text/javascript"src="form.js">
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <div>
+        <div class="Navbar">
+            <ul>
+                <li><a href ="membership.html">Membership</a></li>
+                <li><a href ="home.html">Club Spade</a></li>
+                <li><a href ="contact.html">Contact</a></li>
+            </ul>
+       </div>
+
+    <div class="Form_Page">
+       <div class="Text_Header">
+           <p>Membership Form</p>
+           <p2>To complete your membership please choose the options that best suits you</p2>
+           <div class="Form_Questions">
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="ename" name="ename">
+                <p>Please enter your gender </p>
+                <label for="female"> Female </label>
+                <input type="radio" id="female" name="gender">
+    
+                <label for="male"> Male </label>
+                <input type="radio" id="male" name="gender">
+    
+                <label for="other"> Other </label>
+                <input type="radio" id="other" name="gender"><br>
+
+                <p>What are you looking to achieve?(Please check all that apply to you)</p>
+
+                <label for="cardio"> Cardio </label>
+                <input type="checkbox" id="cardio" name="cardio">
+    
+                <label for="weight_loss"> Weight loss </label>
+                <input type="checkbox" id="weight_loss" name="weight_loss">
+    
+                <label for="yoga">Yoga</label>
+                <input type="checkbox" id="yoga" name="yoga">
+    
+                <label for="weight_training"> Weight Training</label>
+                <input type="checkbox" id="weight_training" name="weight_training"><br>
+
+                <p>Would you like a personal trainer</p>
+                <input type="radio" id="yes" name="yes_no" value="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="yes_no" value="no">
+                <label for="no">No</label>
+
+                <p>What gender trainer do you prefer?(Only answer this question if you selected yes for a trainer)</p>
+
+            <label for="female_trainer"> Female </label>
+            <input type="radio" id="female_trainer" name="trainer_gender">
+
+            <label for="male_trainer"> Male </label>
+            <input type="radio" id="male_trainer" name="trainer_gender">
+
+            <label for="no_preference"> No Preference</label>
+            <input type="radio" id="no_preference" name="trainer_gender"><br><br>
+
+            <input type="button" value="Submit" onclick="validate_form()">
+              </form>
+           </div>
+       </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,157 @@
+.Navbar {
+  background-color: #43c2fb;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  padding: 8px;
+  font-size: 30px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li:hover {
+  color: blue;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.Main_Page {
+  background-color: #43c2fb;
+  height: 900px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.blue-line {
+  height: 100px;
+  background-color: lightblue;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card {
+  height: 650px;
+  width: 300px;
+  background-color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.card-container {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+#Premium {
+  height: 80px;
+  width: 100%;
+  background: #d9d3d3;
+}
+
+#Gold {
+  height: 80px;
+  width: 100%;
+  background: #e1d536;
+}
+
+#Base {
+  height: 80px;
+  width: 100%;
+  background: #4ba5cf;
+}
+
+p {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Premium_Text {
+  font-size: 15px;
+  color: #d9d3d3;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Gold_Text {
+  font-size: 15px;
+  color: #e1d536;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Base_Text {
+  font-size: 15px;
+  color: #4ba5cf;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.button2 {
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.button3 {
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.button:hover {
+  background-color: #d9d3d3;
+}
+
+.button2:hover {
+  background-color: #e1d536;
+}
+
+.button3:hover {
+  background-color: #4ba5cf;
+}
+
+.button,
+.button2,
+.button3 {
+  flex-wrap: wrap;
+}
